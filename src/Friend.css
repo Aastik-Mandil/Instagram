@@ -1,0 +1,32 @@
+.friend {
+  background-color: white;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.friend__info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  margin-right: auto;
+}
+.friend__info > h3 {
+  font-size: 18px;
+}
+.friend__info > h4 {
+  font-size: 13px;
+  font-weight: 500;
+}
+.friend__action {
+  right: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 30px;
+}
+.friend__action:hover{
+  background-color: lightgrey;
+}
